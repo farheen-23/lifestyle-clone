@@ -1,0 +1,524 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+  background-color: white;
+}
+
+
+.row {
+  display: flex;
+  gap: 60vmin;
+
+  background-color: rgb(236, 236, 236);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 4vmin;
+  padding-top: 3vmin;
+  cursor: pointer;
+
+}
+ul button{
+  background-color: rgb(249, 247, 248);
+  font-size: 15px;
+  border-color: rgb(77, 51, 61);
+  size: 20px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+.logo:hover{
+  color: blue;
+}
+
+.left {
+  display: flex;
+  gap: 8vmin;
+
+}
+
+
+.logo {
+  font-size: 35px;
+  padding-left: 2vmin;
+  margin-top: 10px;
+}
+
+ .search input {
+  width: 60vmin;
+  height: 3vmin;
+  font-size: 3vmin;
+  background-color: rgb(202, 200, 200);
+  padding-top: 14px;
+  border-color:rgb(43, 41, 41);
+  margin-top: 10px;
+}
+
+.smallimg  {
+
+  display: flex;
+  gap: 8vmin;
+  justify-content: center;
+  margin-top: 7vmin;
+  padding: 2vmin;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  
+}
+.simg1{cursor: pointer;}
+.simg2{cursor: pointer;}
+.simg3{cursor: pointer;}
+.simg4{cursor: pointer;}
+.simg5{cursor: pointer;}
+.simg6{cursor: pointer;}
+.simg7{cursor: pointer;}
+.simg8{cursor: pointer;}
+.simg9{cursor: pointer;}
+.simg10{cursor: pointer;}
+.simg11{cursor: pointer;}
+
+.banner img {
+  width: 1350px;
+  height: 400px;
+  padding-left: 85px;
+  margin-top: 50px;
+
+}
+.bigimg{
+  margin-top: 10px;
+  background-color: white;
+  margin-left: 5px;
+  
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+
+}
+.p1 img{width: 300px;
+  height: 355px;
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+.p2 img{width: 300px;
+  height: 355px;
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+.p3 img{
+  width: 300px;
+  height: 355px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.p4 img{
+  width: 300px;
+  height: 355px; 
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.tag1{
+  margin-top: 50px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px; 
+  margin-left: 80px;
+}
+.bigimg2{
+  background-color: red;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 95px;
+  margin-right: 98px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.pho1 img{
+  width: 300px;
+  height: 400px;
+  margin-top: 60px ;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pho2 img{
+  width: 300px;
+  height: 400px;
+  margin-top: 60px ;
+  cursor: pointer;
+}
+.pho3 img{
+  width: 300px;
+  height: 400px;
+  margin-top: 60px ;
+  cursor: pointer;
+  }
+.pho4 img{
+ width: 300px; 
+ height: 400px;
+ margin-top: 60px ;
+ cursor: pointer;
+ }
+ .mid{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+   margin-top: 50px;
+   padding-left: 480px;
+ }
+ .bigimg3{
+  margin-top: 50px;
+  margin-left: 95px;
+  
+ }
+ .bigimg3 img{
+  width: 1320px;
+  cursor: pointer;
+ }
+ .bigimg4 img{
+  width: 315px;
+  justify-content: center;
+  border-radius: 2rem;
+  cursor: pointer;
+  
+ }.bigimg4{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+ }
+ .hot{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-left: 100px;
+  margin-top: 50px;
+ }
+ .bigimg5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+ }
+ .bigimg5 img{
+  width: 1310px;
+  cursor: pointer;
+ }
+ .bigimg6 img{
+  margin-left:100px ;
+  width: 1310px;
+  cursor: pointer;
+ }
+ .bigimg7 img{
+  width: 313px;
+  margin-top: 15px;
+  cursor: pointer;
+  
+ }
+ .bigimg7{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+ }
+ .bags{
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 40px;
+  padding-left: 100px;
+
+ }
+ .bigimg8{
+  background-color: rgb(252,240,237);
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+ .glam{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 480px;
+ }
+ .bigimg8 img{
+  padding-left: 55px;
+  width: 1200px;
+  cursor: pointer;
+  
+ }.pic img{
+  width: 259px;
+  cursor: pointer;
+}
+ .pic{
+  display: flex;
+  row-gap: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  
+ }
+ .bigimg9 img{
+  margin-top: 50px;
+  margin-left: 105px;
+  width: 1308px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  
+ }
+ .bigimg10 img{
+  width: 310px;
+  cursor: pointer;
+  
+ }
+ .bigimg10{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ }
+ .the{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  padding-left: 100px ;
+  padding-bottom: 10px;
+ }
+ .bigimg11{
+
+  padding-left: 100px;
+
+ }
+ .inner{
+  font-size: 40px;
+  margin-top: 40px;
+  padding-left: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .bigimg11 img{
+  width: 1300px;
+  padding-top: 5px;
+ }
+ .part1 h2{
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+  margin-bottom: 7px;
+ }
+ .part1 h4{
+  font-size: 20px;
+  margin-left: 100px;
+  color: rgba(63, 62, 62, 0.764);
+ }
+ .part1d{
+  display: flex;
+  margin-left: 100px;
+  margin-top:35px;
+
+ }
+ .sub{width:140px;
+  height: 42px;
+  border: 2px solid black;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+  padding-top: 12px;
+  cursor: pointer;
+  
+  
+ }
+ .part1 input{
+height: 54px;
+width: 400px;
+background-color: rgb(242, 243, 244);
+border-color: rgb(52, 46, 46)
+
+ }
+ .part2 h2{  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 30px;
+  margin-bottom: 7px;
+
+ }
+.part2 h4{
+  font-size: 20px;
+  margin-left: 100px;
+  color: rgba(63, 62, 62, 0.764);
+}
+.apple{
+  width: 200px;
+  height: 60px;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-top: 40px;
+  background-color: black;
+  display: flex;
+  
+}
+.footer{
+  display: flex;
+  gap: 80px;
+}
+.apple img{
+  width:35px;
+  height: 35px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+.download{
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 5px;
+
+}
+.astore{
+  color: white;
+  font-size: 28px;
+  padding-top: 0px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+.playstore{
+  width:195px;
+  height: 60px;
+  border: 2px solid black;
+  margin-top: 40px;
+  background-color: black;
+}
+.container{
+  display: flex;
+  gap: 30px;
+}
+.playstore img{
+  width:70px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 6px;
+  
+}
+.playstore{
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+.pstore{
+  font-size: 28px;
+}
+.load{
+  padding-left: 5px;
+  margin-top: 3px;
+}
+input::placeholder{
+  font-size: 20px;
+  padding-left: 25px;
+}
+.footer2{
+  display: flex;
+  gap:260px;
+  justify-content: center;
+  margin-top: 100px;
+  
+  background-color: rgb(247, 245, 243);
+}
+.col1{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 45px;
+}
+.onlineoffers{
+  padding-top: 5px;
+  cursor: pointer;
+}
+.storeoffers{
+  padding-top: 5px;
+  cursor: pointer ;
+}
+.onlinegiftcard{
+  padding-top: 5px;
+  cursor: pointer;
+}
+ .storegiftcard{
+  padding-top: 5px;
+  cursor: pointer;
+   }
+ .storesnearby{
+  padding-top: 5px;
+  cursor: pointer;
+  }
+  .edgemembership{
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .fasionvlog{
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .circlemag{
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .sbioffers{
+    padding-top: 5px;
+    cursor: pointer;
+  }
+ .homecenter{
+  padding-top: 5px;
+  cursor: pointer;
+ }
+ .col2{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ }
+ .aboutus{padding-top: 5px;
+cursor: pointer;}
+ .careers{padding-top: 5px;
+cursor: pointer;}
+ .takeatour{
+  padding-top: 5px;
+  cursor: pointer;
+ }
+ .blog{padding-top: 5px;
+cursor: pointer;}
+ .storelocater{
+  padding-top: 5px;
+  cursor: pointer;
+ }
+ .landmarkcares{padding-top: 5px;
+cursor: pointer;}
+ .lifestylecares{padding-top: 5px;
+  cursor: pointer;}
+ .col3{font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contactus{padding-top: 5px;
+cursor: pointer;}
+.shipping{padding-top: 5px;
+cursor: pointer;}
+.returnsprocess{padding-top: 5px;
+cursor: pointer;}
+.returnspolicy{padding-top: 5px;
+cursor: pointer;}
+.helpcenter{padding-top: 5px;
+cursor: pointer;}
+
+
+
+
+
+
+
+
+
+  
+
+
